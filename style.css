@@ -38,17 +38,78 @@ html, body {
 
 
 .down-arrow{
-    position: relative;
-    vertical-align: top;
+    position: absolute;
     bottom: 0;
     left: 50%;
     cursor: pointer;
 }
 
-.down-arrow-2{
-    position: relative;
-    vertical-align: top;
-    bottom: 0;
-    left: 50%;
-    cursor: pointer;
+.icon-scroll {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+  width: 1em;
+	height: 3.125em;
+	transform: translateX(-50%) scale(2);
+    z-index: 99999;
+    text-align: center;
 }
+
+
+.icon-scroll span {
+	animation-delay: .2s;
+}
+
+
+.icon-scroll .mouse {
+	height: 1.375em;
+	width: .875em;
+	border: 1px solid rgba(255,255,255,.8);
+	border-radius: 2em;
+}
+
+.icon-scroll .wheel {
+  position: relative;
+  display: block;
+  height: 0.1875em;
+  width: 0.1875em;
+  margin: 0.1875em auto 0;
+  background: rgba(255,255,255,.8);
+  animation: mouse-wheel 1.2s ease infinite;
+  border-radius: 50%;
+}
+
+@keyframes mouse-wheel {
+	0% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(.375em);
+	}
+}
+
+@keyframes mouse-scroll {
+	0%   { opacity: 0; }
+	50%  { opacity: .5; }
+	100% { opacity: 1; }
+}
+
+.about{
+    transform: rotate(90deg);
+    transform-origin: right middle;
+    float: right;
+    margin-top: 20px;
+}
+
+.projects{
+    transform: rotate(270deg);
+    transform-origin: left middle;
+    float: left;
+    margin-top: 20px;
+}
+
+
+
