@@ -14,7 +14,7 @@ html, body {
   
 .full-height-2 {
     height: 100%;
-    background: yellow;
+    background: rgb(90, 129, 82);
 }
 
 .full-height-3 {
@@ -264,3 +264,25 @@ nav h1 {
     color: blue:
 }
 
+.image-1{
+    height: 450px;
+    width: 450px;
+    display: block;
+    margin: auto;
+    z-index:2;
+    padding: 50px;
+}
+
+.img-container-1 {
+    position: relative;
+}
+  
+.learn{
+    margin-top: 80px;
+}
+
+.go{
+    margin-top: 80px;
+}
+
+ 
