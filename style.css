@@ -171,8 +171,6 @@ nav p:nth-child(2) {
     z-index: 4;
     top: 0;
     left: 0;
-    background-color: #fff5d7;
-    background-color: #101357;
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -212,6 +210,14 @@ nav p:nth-child(2) {
     top: 15px;
     right: 35px;
     }
+}
+
+.me{
+    background-color: #101357;
+}
+
+.bae{
+    background-color: red;
 }
 
 h1{
@@ -270,7 +276,7 @@ nav h1 {
     display: block;
     margin: auto;
     z-index:2;
-    padding: 50px;
+    padding: 85px;
 }
 
 .img-container-1 {

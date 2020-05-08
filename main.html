@@ -26,7 +26,7 @@
         </nav>
       
      
-        <div id="myNav" class="overlay">
+        <div id="myNav" class="overlay me">
 
              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
              <div class="overlay-content">
@@ -47,7 +47,15 @@
    
 
     <div class="full-height-2" id="section2">
-        <div class="about learn">Learn More</div>
+      <span style="cursor:pointer" class="nav-link about learn" onclick="openBae()">Learn More</span>
+      <div id="myBae" class="overlay bae">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeBae()">&times;</a>
+        <div class="overlay-content">
+          <h1 class="aboutMe">Meeting Host Manager</h1>
+          <p class="aboutMeI">Creative Web Developer with a natural aptitude for programming, design, and computational thinking. Graduate from Northwestern University’s full-stack Web Development Bootcamp. Worked with front end UX design as well as back end development and database storage. Based in Chicago.  </p>
+        </div>
+   </div>
+
         <div class="projects go"> Go to Website</div>
             <img src="img/Meeting Host APp.png" class="image-1">
             
@@ -81,6 +89,14 @@
         function closeNav() {
           document.getElementById("myNav").style.width = "0%";
         }
-        </script>
+
+        function openBae() {
+          document.getElementById("myBae").style.width = "100%";
+        }
+        
+        function closeBae() {
+          document.getElementById("myBae").style.width = "0%";
+        }
+    </script>
 </body>
 </html>
