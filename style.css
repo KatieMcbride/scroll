@@ -19,7 +19,7 @@ html, body {
 
 .full-height-3 {
     height: 100%;
-    background: green;
+    background: black;
 }
 
 .full-height-4 {
@@ -267,7 +267,7 @@ nav h1 {
 }
 
 .blue-text{
-    color: blue:
+    color: blue;
 }
 
 .image-1{
@@ -291,4 +291,72 @@ nav h1 {
     margin-top: 80px;
 }
 
+/* CUBE CONTAINER */
+.cube {
+	animation: rotate 7000ms linear infinite;
+	bottom: 0;
+	height: 100px;
+	left: 0;
+	margin: auto;
+	/* position: absolute; */
+	transform-style: preserve-3d;
+	right: 0;
+	top: 0;
+    width: 100px;
+
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotateY(360deg) rotateX(720deg) rotateZ(1080deg);
+	}
+}
+
+.face {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.front {
+	background: rgb(252, 251, 251);
+	transform: translateZ(50px);
+}
+
+.back {
+	background: rgb(230, 228, 228);
+	transform: translateZ(-50px);
+}
+
+.left {
+	background: rgb(209, 209, 209);
+	transform: translateX(-50px) rotateY(90deg);
+}
+
+.right {
+	background: rgb(218, 216, 216);
+	transform: translateX(50px) rotateY(90deg);
+}
+
+.top {
+	background: rgb(209, 199, 199);
+	transform: translateY(-50px) rotateX(90deg);
+}
+
+.bottom {
+	background: rgb(185, 185, 185);
+	transform: translateY(50px) rotateX(90deg);
+}
+
+.perfect-cube{
+    color:white;
+    font-size: 80px;
+    padding-top: 120px;
+}
+
+.pcube{
+    color:white;
+}
  
