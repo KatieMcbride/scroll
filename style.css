@@ -390,7 +390,7 @@ nav h1 {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-name: ticker;
-    animation-duration: 45s;
+    animation-duration: 50s;
   }
   .ticker-move:hover{
     animation-play-state: paused; /* Pause scroll on mouse hover */
@@ -409,6 +409,20 @@ nav h1 {
   .ticker-move-2:hover{
     animation-play-state: paused; /* Pause scroll on mouse hover */
   }
+
+  .ticker-move-3 {
+    /* Basically move items from right side of screen to left in infinite loop */
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 40s;
+  }
+  .ticker-move-3:hover{
+    animation-play-state: paused; /* Pause scroll on mouse hover */
+  }
   
   /* ITEMS */
   .ticker-item{
@@ -416,3 +430,7 @@ nav h1 {
     padding: 0 2rem;
   }
  
+  .fitBoard{
+    height: 250px;
+    width: 250px;
+  }
