@@ -5,6 +5,7 @@ html, body {
     text-align: center;
     position: relative;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
   }
   
 .full-height {
@@ -35,7 +36,6 @@ html, body {
 .full-height-6 {
     height: 100%;
     background: white;
-    text-align: left;
 }
 
 
@@ -79,6 +79,11 @@ html, body {
   background: rgba(255,255,255,.8);
   animation: mouse-wheel 1.2s ease infinite;
   border-radius: 50%;
+}
+
+.name{
+  color: white;
+  font-size: 80px;
 }
 
 @keyframes mouse-wheel {
@@ -144,9 +149,7 @@ nav p:nth-child(2) {
 
 .nav-link {
     position: relative;
-    text-decoration: none;
     color: black;
-
 }
 
 .aboutMe{
@@ -178,10 +181,10 @@ nav p:nth-child(2) {
   
   .overlay-content {
     position: relative;
-    top: 25%;
+    /* top: 25%; */
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
   
   .overlay p {
@@ -213,8 +216,14 @@ nav p:nth-child(2) {
     }
 }
 
+.profilepic{
+  float:left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .me{
-    background-color: #101357;
+    background-color: #e6e6fa;
 }
 
 .bae{
@@ -246,7 +255,7 @@ nav h1 {
 }
 	
 	
-.letter:hover .a{
+/* .letter:hover .a{
 		transform: rotateY(160deg) rotateX(-20deg) scale(1.2);
 }
 	
@@ -256,7 +265,7 @@ nav h1 {
 	color: #fff;
 	display: inline-block;
 	transition: 800ms all cubic-bezier(0.5,1,.4,2);
-}
+} */
 
 .intro{
     text-align: left;
@@ -830,17 +839,20 @@ nav h1 {
   font-size: 50px;
   margin-left: 40px;
 }
-
-.profilepic{
-  padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 50px;
-  
+.free{
+  font-size: 50px;
+  margin-top: 50px;
 }
 
 .contact{
-  padding-top: 50px;
-  
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: 'GTWalsheim', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fbaf08;
 }
 
 
