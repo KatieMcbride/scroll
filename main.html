@@ -167,12 +167,13 @@
 
 
     <div class="full-height-5" id="section5">
-      <span style="cursor:pointer" class="nav-link about learn" onclick="openBae()">Learn More</span>
-      <div id="myBae" class="overlay pcube">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeBae()">&times;</a>
+      <span style="cursor:pointer" class="nav-link about learn" onclick="openBeer()">Learn More</span>
+      <div id="myBeer" class="overlay beerOverlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeBeer()">&times;</a>
         <div class="overlay-content">
-          <h1 class="aboutMe">Meeting Host Manager</h1>
-          <p class="aboutMeI">Creative Web Developer with a natural aptitude for programming, design, and computational thinking. Graduate from Northwestern University’s full-stack Web Development Bootcamp. Worked with front end UX design as well as back end development and database storage. Based in Chicago.  </p>
+          <img src="img/Screen Shot 2020-04-22 at 10.30.45 PM.jpg" class="img-top">
+          <h1 class="moreTitle">Brewery Finder</h1>
+          <p class="moreInfo"> BeerHunter.pub uses an API call to gather local breweries and the uses Google Maps to locate them in a convient way so you can easily plan your night out. </p>
         </div>
       </div>
 
@@ -253,6 +254,14 @@
         
         function closeFit() {
           document.getElementById("myFit").style.width = "0%";
+        }
+
+        function openBeer() {
+          document.getElementById("myBeer").style.width = "100%";
+        }
+        
+        function closeBeer() {
+          document.getElementById("myBeer").style.width = "0%";
         }
     </script>
 </body>

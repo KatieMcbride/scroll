@@ -255,6 +255,11 @@ nav p:nth-child(2) {
   background-color:  #ffdb58;
 }
 
+.beerOverlay{
+  background-color: #0B3c5d;
+  color: white;
+}
+
 h1{
     display: block;
 }
@@ -914,4 +919,5 @@ footer{
   color: black;
   font-size: 10px;
 }
+
 
