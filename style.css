@@ -882,3 +882,18 @@ footer{
   padding-top: 20px;
 }
 
+.img-top{
+  height:300px;
+  width: 580px;
+}
+
+.moreTitle{
+  color: black;
+  font-size: 20px;
+}
+
+.moreInfo{
+  color: black;
+  font-size: 10px;
+}
+
