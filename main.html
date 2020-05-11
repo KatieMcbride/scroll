@@ -85,12 +85,14 @@
 
 
     <div class="full-height-3" id="section3">
-      <span style="cursor:pointer" class="nav-link about learn pcube" onclick="openBae()">Learn More</span>
-      <div id="myBae" class="overlay pcube">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeBae()">&times;</a>
+      <span style="cursor:pointer" class="nav-link about learn cubeLearn" onclick="openCube()">Learn More</span>
+      <div id="myCube" class="overlay pcube">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeCube()">&times;</a>
         <div class="overlay-content">
-          <h1 class="aboutMe">Meeting Host Manager</h1>
-          <p class="aboutMeI">Creative Web Developer with a natural aptitude for programming, design, and computational thinking. Graduate from Northwestern University’s full-stack Web Development Bootcamp. Worked with front end UX design as well as back end development and database storage. Based in Chicago.  </p>
+          <img src="img/Screen Shot 2020-04-22 at 10.25.43 PM.jpg" class="img-top">
+          <h1 class="moreTitle">Shopify Website</h1>
+          <p class="moreInfo">For Perfect Cube I worked with the Owners to launch their start up website and create it into a working store. I have also worked closely with the client to continually update their website and products during COVID-19. </p>
+          <img src="img/Screen Shot 2020-04-22 at 10.26.38 PM.jpg" class="img-top">
         </div>
       </div>
 
@@ -114,12 +116,14 @@
 
 
     <div class="full-height-4" id="section4">
-      <span style="cursor:pointer" class="nav-link about learn pcube" onclick="openBae()">Learn More</span>
-      <div id="myBae" class="overlay pcube">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeBae()">&times;</a>
+      <span style="cursor:pointer" class="nav-link about learn" onclick="openFit()">Learn More</span>
+      <div id="myFit" class="overlay fitOverlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeFit()">&times;</a>
         <div class="overlay-content">
-          <h1 class="aboutMe">Meeting Host Manager</h1>
-          <p class="aboutMeI">Creative Web Developer with a natural aptitude for programming, design, and computational thinking. Graduate from Northwestern University’s full-stack Web Development Bootcamp. Worked with front end UX design as well as back end development and database storage. Based in Chicago.  </p>
+          <img src="img/Screen Shot 2020-04-22 at 10.29.42 PM.jpg" class="img-top">
+          <h1 class="moreTitle">Social Media Fitness App</h1>
+          <p class="moreInfo"> FitBoard is a host for a social media fitness app. You can join a group, compete against friends, and find new exercises. </p>
+          <img src="img/Screen Shot 2020-04-22 at 10.30.21 PM.jpg" class="img-top-fit">
         </div>
       </div>
 
@@ -163,7 +167,7 @@
 
 
     <div class="full-height-5" id="section5">
-      <span style="cursor:pointer" class="nav-link about learn pcube" onclick="openBae()">Learn More</span>
+      <span style="cursor:pointer" class="nav-link about learn" onclick="openBae()">Learn More</span>
       <div id="myBae" class="overlay pcube">
         <a href="javascript:void(0)" class="closebtn" onclick="closeBae()">&times;</a>
         <div class="overlay-content">
@@ -233,6 +237,22 @@
         
         function closeBae() {
           document.getElementById("myBae").style.width = "0%";
+        }
+
+        function openCube() {
+          document.getElementById("myCube").style.width = "100%";
+        }
+        
+        function closeCube() {
+          document.getElementById("myCube").style.width = "0%";
+        }
+
+        function openFit() {
+          document.getElementById("myFit").style.width = "100%";
+        }
+        
+        function closeFit() {
+          document.getElementById("myFit").style.width = "0%";
         }
     </script>
 </body>

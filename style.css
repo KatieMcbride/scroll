@@ -242,6 +242,19 @@ nav p:nth-child(2) {
     background-color: rgb(207, 207, 207);
 }
 
+.cubeLearn{
+  color: white;
+}
+
+.pcube{
+  background-color: rgb(56, 74, 97);
+  text-align: center;
+}
+
+.fitOverlay{
+  background-color:  #ffdb58;
+}
+
 h1{
     display: block;
 }
@@ -885,6 +898,11 @@ footer{
 .img-top{
   height:300px;
   width: 600px;
+}
+
+.img-top-fit{
+  height:360px;
+  width: 340px;
 }
 
 .moreTitle{
