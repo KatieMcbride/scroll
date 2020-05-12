@@ -125,6 +125,11 @@ a:active {
   margin-left: 28px;
 }
 
+.logoAbout{
+  height: 150px; 
+  width: 150px; 
+}
+
 .name{
   color: white;
   font-size: 80px;
@@ -175,6 +180,18 @@ nav{
     padding-top: 60px;
 }
 
+.abNav{
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin: 0 auto;
+  transform: rotate(90deg);
+  font-size: 16px;
+  font-family: 'GTWalsheim', sans-serif;
+  padding-top: 60px;
+}
+
+
 nav p {
   flex: 1;
     flex-grow: 1;
@@ -195,6 +212,8 @@ nav p:nth-child(2) {
     position: relative;
     color: black;
 }
+
+
 
 .aboutMe{
     font-family: 'GTWalsheim', sans-serif;
