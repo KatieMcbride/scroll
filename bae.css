@@ -104,7 +104,9 @@ a:link {
   }
 
   .titleProjects{
-      font-size: 5em;
+      font-size: 7em;
+      font-weight: 300;
+
   }
  
 .role{
