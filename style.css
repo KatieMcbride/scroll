@@ -171,24 +171,13 @@ a:active {
 nav{
     width: 100%;
     text-align: center;
-    height: 120px;
+    /* height: 120px; */
     letter-spacing: 0.8px;
     margin: 0 auto;
     /* text-transform: uppercase; */
     font-size: 16px;
     font-family: 'GTWalsheim', sans-serif;
     padding-top: 60px;
-}
-
-.abNav{
-  width: 100%;
-  text-align: center;
-  letter-spacing: 0.8px;
-  margin: 0 auto;
-  transform: rotate(90deg);
-  font-size: 16px;
-  font-family: 'GTWalsheim', sans-serif;
-  padding-top: 60px;
 }
 
 
@@ -217,19 +206,18 @@ nav p:nth-child(2) {
 
 .aboutMe{
     font-family: 'GTWalsheim', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: 1.5px;
-    text-align: left;
-    margin-left: 20px;
-    color: #fea49f;
+    text-align: center;
+    color: black;
     font-weight: 400;
 }
 
 .aboutMeI{
     font-family: 'GTWalsheim', sans-serif;
-    font-size: 30px;
+    font-size: 18px;
     letter-spacing: 0.8px;
-    text-align: left;
+    text-align: center;
 }
 
 /* OVERLAY */
@@ -313,9 +301,9 @@ nav p:nth-child(2) {
 }
 
 .profilepic{
-  float:left;
-  padding-left: 20px;
-  padding-right: 20px;
+  float:center;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 }
 
 .MHA{
@@ -399,8 +387,8 @@ nav h1 {
 .intro{
     text-align: left;
     margin-left: 60px;
-    margin-top: 100px;
-    padding-top: 60px;
+    /* margin-top: 100px; */
+    /* padding-top: 60px; */
     max-width: 75%;
     font-size: 2.5em;
     font-weight: 300;
@@ -976,7 +964,7 @@ nav h1 {
 
 .contact{
   justify-content: space-around;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'GTWalsheim', sans-serif;
   font-weight: 300;
   letter-spacing: 0.6px;
