@@ -77,6 +77,36 @@ a:link {
     font-family: 'GTWalsheim', sans-serif;
 } 
 
-.go{
-    /* margin-top: 80px; */
+.img-top{
+    height:350px;
+    width: 650px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+  }
+  
+  .img-top-fit{
+    height:360px;
+    width: 340px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .moreTitle{
+    color: black;
+    font-size: 20px;
+  }
+  
+  .moreInfo{
+    color: black;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+  }
+
+  .titleProjects{
+      font-size: 5em;
+  }
+ 
+.role{
+    padding-bottom: 30px;
 }
