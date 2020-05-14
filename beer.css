@@ -1,0 +1,129 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+
+nav{
+    width: 100%;
+    text-align: center;
+    /* height: 120px; */
+    letter-spacing: 0.8px;
+    margin: 0 auto;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    font-family: 'GTWalsheim', sans-serif;
+    padding-top: 60px;
+}
+
+.nav-link {
+    position: relative;
+    color: black;
+}
+
+.about{
+    transform: rotate(90deg);
+    transform-origin: right middle;
+    float: right;
+    margin-top: 20px;
+}
+
+/* A link that has not been visited */
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .aCube:visited {
+    color: white;
+  }
+  
+  .aCube:link {
+    color: white;
+  }
+  
+  .aCube:active {
+    color: white;
+  }
+  /* A link that has been visited */
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  /* A link that is hovered on */
+  a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+  /* A link that is selected */
+  a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.projects{
+    transform: rotate(270deg);
+    transform-origin: left middle;
+    float: left;
+    margin-top: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 300;
+    font-family: 'GTWalsheim', sans-serif;
+} 
+
+.img-top{
+    height:350px;
+    width: 650px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+  }
+
+  .img-top-1{
+    height:450px;
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+  }
+
+  .img-top-prof{
+    height:450px;
+    width: 650px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+  }
+  
+  .img-top-fit{
+    height:340px;
+    width: 660px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+  }
+  
+  .moreTitle{
+    color: black;
+    font-size: 20px;
+  }
+  
+  .moreInfo{
+    color: black;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+  }
+
+  .titleProjects{
+      font-size: 9em;
+      font-weight: 300;
+
+  }
+ 
+.role{
+    padding-bottom: 30px;
+}
