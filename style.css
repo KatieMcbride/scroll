@@ -70,7 +70,7 @@ a:active {
 
 .full-height-6 {
     height: 100%;
-    background: white;
+    background: whitesmoke;
 }
 
 
@@ -310,6 +310,9 @@ nav p:nth-child(2) {
   font-size: 30px;
 }
 
+.MHS{
+  font-size: 20px;
+}
 .me{
     background-color: #e6e6fa;
 }
@@ -1028,5 +1031,16 @@ footer{
     transform: scale(0.8) rotateZ(90deg);
 }
 
+
+/* SOCIAL */
+
+.image-social{
+  height: 250px;
+  width: 250px;
+  /* display: block; */
+  /* margin: auto; */
+  z-index:2;
+  padding: 50px;
+}
 
 
